@@ -1,0 +1,1 @@
+A flask app that can play audio like music player app, audio file are kept at amazon s3 , user will sign in and play audio that they have subscribed, blue light theme color

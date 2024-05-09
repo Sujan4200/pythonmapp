@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <ul>
+        {% for audio_file in audio_files %}
+        <li><a href="{{ url_for('play_audio', audio_file=audio_file) }}">{{ audio_file }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

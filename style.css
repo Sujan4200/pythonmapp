@@ -1,0 +1,26 @@
+body {
+    background-color: #00BFFF; /* Blue light theme color */
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
